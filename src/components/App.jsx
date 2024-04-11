@@ -1,6 +1,5 @@
-import { Header } from "./components/Header.module.css"
-import { Button } from "./Button"
-import "./components/Header.module.css"
+import { Header } from "./Header.jsx"
+import { Button } from "../Button"
 import "./global.css"
 
 export function App() {
