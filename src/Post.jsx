@@ -1,4 +1,4 @@
-export function Button (props) {
+export function Post (props) {
     return (
         <div>
             <strong><p>{props.author}</p></strong>
