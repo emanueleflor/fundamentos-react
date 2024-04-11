@@ -1,17 +1,20 @@
-import { Post } from "./Post"
+import { Header } from "./components/Header.module.css"
+import { Button } from "./Button"
+import "./components/Header.module.css"
+import "./global.css"
 
 export function App() {
-
   return (
     <div>
-      <Post
+      <Header />
+      <Button
         author="Leli Flor"
         content="Lorem ipsum"
       />
-      <Post
+      <Button
         author="emanuele"
-        content="Novo post"
+        content="Novo POST"
       />
     </div>
-  )
+  );
 }
